@@ -1,0 +1,62 @@
+{
+  "name": "ionic-react-wordpress",
+  "version": "0.0.1",
+  "private": true,
+  "homepage": "./",
+  "dependencies": {
+    "@capacitor/core": "2.4.7",
+    "@ionic/react": "8.2.6",
+    "@ionic/react-hooks": "0.0.8",
+    "@ionic/react-router": "8.2.6",
+    "@testing-library/jest-dom": "5.11.9",
+    "@testing-library/react": "11.2.7",
+    "@testing-library/user-event": "13.0.6",
+    "@types/jest": "29.5.12",
+    "@types/node": "20.10.0",
+    "@types/react": "17.0.19",
+    "@types/react-dom": "17.0.9",
+    "@types/react-router": "5.1.16",
+    "@types/react-router-dom": "5.1.8",
+    "ionicons": "7.4.0",
+    "moment": "^2.30.1",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-responsive": "10.0.0",
+    "react-router": "5.2.1",
+    "react-router-dom": "5.2.1",
+    "react-scripts": "^5.0.1",
+    "typescript": "5.5.4",
+    "wpapi": "1.2.2"
+  },
+  "scripts": {
+    "start": "ionic serve",
+    "build": "ionic build",
+    "test": "ionic test",
+    "cra:start": "react-scripts start",
+    "cra:build": "react-scripts build",
+    "cra:test": "react-scripts test",
+    "cra:eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.1.1",
+    "@ionic/cli": "^7.2.0",
+    "@types/react-responsive": "8.0.3",
+    "@types/wpapi": "1.1.4"
+  },
+  "description": "An Ionic project"
+}
